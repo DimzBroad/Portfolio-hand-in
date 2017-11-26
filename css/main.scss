@@ -1,0 +1,446 @@
+/* IMPORTS */
+
+@import 'pre-comp-styles';
+@import 'navigation';
+@import 'footer';
+
+
+
+/* TYPOGRAPHY STYLES */
+
+p {
+    font-size: 18px;
+}
+
+.slantContainerWrapper {
+height:100%;
+    width: 100%;
+    background-image: url(../imgs/red-overlay-slant-01.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -10000;
+    padding-top: 20px;
+    background-blend-mode: multiply;
+}
+
+.slantContainerWrapper4 {
+height:100%;
+    width: 100%;
+    background-image: url(../imgs/red-slant-2.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -10000;
+    padding-top: 20px;
+    background-blend-mode: multiply;
+}
+
+.slantContainerWrapper3 {
+height:100%;
+    width: 100%;
+    background-image: url(../imgs/moyo-slant-black.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -10000;
+    padding-top: 20px;
+    background-blend-mode: multiply;
+}
+
+.slantContainerWrapper2 {
+height:100%;
+    width: 100%;
+    background-image: url(../imgs/wat-slant-black-01.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -10000;
+    padding-top: 20px;
+    background-blend-mode: multiply;
+}
+
+.tiltImgContainer {
+    height: 70%;
+    width: 60%;
+    margin: auto;
+    z-index: 1000;
+}
+
+/* HEADER SECTION */
+
+.headerSection {
+    box-sizing: border-box;
+    width: 100%;
+    height:300px;
+    background: #11171E;
+    padding-top: 50px;
+    background-image: url(../imgs/final-graf.jpg);
+    background-size: contain;
+    background-position: top;
+    background-blend-mode: multiply;
+}
+
+.headerSectionLogo {
+    box-sizing: border-box;
+    width: 100%;
+    height:300px;
+    background: #11171E;
+    padding-top: 50px;
+}
+
+/* LOGO CONTAINER */
+
+.logoContainer {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+/* LINK CONTAINERS */
+
+.linkContainerPaddTop {
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.linkContainer {
+    width: 100%;
+    height: auto;
+    margin-top: -10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* INTRO CONTAINER */
+
+.introContainer {
+    background-color: #ffffff;
+    box-sizing: border-box; 
+    margin: auto;
+    text-align: center;
+    min-height: 200px;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+}
+
+
+/* FOOTER SECTION */
+
+.footerSectionContainer {
+    background-color: #0b0b0b;
+    box-sizing: border-box; 
+    margin: auto;
+    text-align: center;
+    min-height: 200px;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+}
+
+.footerSlantContainer {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    background-color: #0b0b0b;
+    z-index: 50;
+    padding-top: 10px;
+}
+
+
+/* INTRO CONTAINER SLANTED */
+
+
+.footerSlantContainer:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    transform-origin: center right;
+    transform: skewY(5deg);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footerSlantContainer:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    transform-origin: center left;
+    transform: skewY(-5deg);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* INTRO CONTAINER SLANTED */
+
+.introSlantWrapper {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    background-color: #ffffff;
+    z-index: 50;
+    padding-top: 10px;
+}
+
+.introSlantWrapper:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    transform-origin: center right;
+    transform: skewY(5deg);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.introSlantWrapper:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    transform-origin: center left;
+    transform: skewY(-5deg);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+/* CONTACT BANNER*/
+
+.contactBanner {
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
+/* PORTFOLIO CONTAINER */
+
+.portfolioContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+}
+
+.contentContainer {
+    padding-bottom: 3%;
+}
+
+/* WEB SECTION */ 
+
+.myContentWrapper {
+    box-sizing: border-box;
+    height: auto;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.headingContainer {
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+}
+
+.iconContainer {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.featureImgContainer {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.featureImg {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.descriptionContainer {
+    padding-top: 15%;
+}
+
+/* SLANTED BACKGROUND */
+
+.experimentContainer {
+    box-sizing: border-box;
+    height: auto;
+}
+
+.slantBgContainer {
+    z-index: -500;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.slantImgContainer {
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+/* BACKGROUND COLORS */
+
+.background-red {
+    background-color: red;
+}
+
+.background-black {
+    background-color: black;
+    height: 100%;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.marginAuto {
+    margin: auto;
+}
+
+.comingSoon{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background: #e3e3e3;
+    padding-top: 100px;
+}
+
+.showreelContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.showreel {
+    margin: auto;
+}
+
+
+/* Larger than mobile */
+
+@media (min-width: 400px) {
+/* HEADER SECTION */
+
+.headerSection {
+    box-sizing: border-box;
+    width: 100%;
+    height:300px;
+    background: #11171E;
+    padding-top: 50px;
+       background-image: url(../imgs/final-graf.jpg);
+    background-size: contain;
+    background-position: top;
+}
+
+}
+
+
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+/* HEADER SECTION */
+
+.headerSection {
+    box-sizing: border-box;
+    width: 100%;
+    height:300px;
+    background: #11171E;
+    padding-top: 50px;
+       background-image: url(../imgs/final-graf.jpg);
+    background-size: contain;
+    background-position: top;
+}
+}
+
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+/* HEADER SECTION */
+
+.headerSection {
+    box-sizing: border-box;
+    width: 100%;
+    height:300px;
+    background: #11171E;
+    padding-top: 50px;
+       background-image: url(../imgs/final-graf.jpg);
+    background-size: contain;
+    background-position: top;
+}
+}
+
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+/* HEADER SECTION */
+
+.headerSection {
+    box-sizing: border-box;
+    width: 100%;
+    height:300px;
+    background: #11171E;
+    padding-top: 50px;
+       background-image: url(../imgs/final-graf.jpg);
+    background-size: contain;
+    background-position: top;
+}
+}
+
+
+/* Larger than desktop HD */
+
+@media (min-width: 1200px) {
+    
+
+    
+/* LOGO CONTAINER */
+
+.logoContainer {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    }
+    }
